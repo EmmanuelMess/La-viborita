@@ -165,16 +165,6 @@ int main() {//void a() {//
             cout << intentos << " intento" << (intentos > 1? "s":"") << " y contando..." << endl;
         else cout << "La viborita en C++;" << endl;
 
-		/*Debug {
-			cout << "s->a(" << s.anterior->getX() << ", " << s.anterior->getY() << ");";
-			cout << "s(" << s.getX() << ", " << s.getY() << ")" << endl;
-			int i = 0;
-			for(cuerpo *mem = &s;mem != NULL; mem = mem->anterior) {
-				cout << i++;
-				cout << "mem(" << mem->getX() << ", " << mem->getY() << ")" << endl;
-			}
-		}*/
-
 		cout << LIMITES;
 		for(auto &e : a) {
 			for(char &j : e) {
